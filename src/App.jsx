@@ -4,8 +4,9 @@ import Login from "./pages/Login/Login";
 import Contactos from "./pages/Contactos/Contactos";
 import Chat from "./pages/Chat/Chat";
 import Error from "./pages/Error/Error"; 
-import { getContacts } from './services/contactsService';
+
 import ContactsContextProvider from './Context/ContactsContext';
+
 
 
 

@@ -4,7 +4,7 @@ const contacts = [
     id:1,
     name: 'Hermioni',
     ultima_conexión: 'hace 2 horas',
-    imagen_perfil: 'https://static.wikia.nocookie.net/warnerbros/images/3/3e/Hermione.jpg/revision/latest?cb=20120729103114&path-prefix=es',
+    imagen_perfil: 'https://miro.medium.com/v2/resize:fit:1400/format:webp/1*obDCz57X7D2Kd1XvcdI0Iw.jpeg',
     mensajes: [
         {
                 id:1,
@@ -54,7 +54,7 @@ const contacts = [
     id:3,
     name: 'Toretto',
     ultima_conexión: 'hace 3 horas',
-    imagen_perfil: 'https://static.wikia.nocookie.net/ficcion-sin-limites/images/6/67/Vin-diesel.jpg/revision/latest?cb=20210706212518&path-prefix=es',
+    imagen_perfil: 'https://d1gl66oyi6i593.cloudfront.net/wp-content/uploads/2020/07/dominic-toretto.jpg',
     mensajes: [
         {
                 id:1,
@@ -73,6 +73,37 @@ const contacts = [
         {
               id:3,
                 text: 'Tengo el Dogde! ',
+                send_by_me:false,
+                is_read:false,
+
+        }
+    ]
+
+
+},
+{
+    id:4,
+    name: 'Shakira',
+    ultima_conexión: 'hace 1 hora',
+    imagen_perfil: 'https://cdn-3.expansion.mx/dims4/default/34975fc/2147483647/strip/true/crop/1200x630+0+0/resize/1200x630!/format/webp/quality/60/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fda%2F59%2F678467414e2da15b1195d85bbb93%2Fplantilla-nueva-2.jpg',
+    mensajes: [
+        {
+                id:1,
+                text: 'Hola Ro! Me pasarías la receta de tus alfajorcitos de maicena? Son muy ricos!! ♥',
+                send_by_me:false,
+                is_read:false,
+
+        },
+        {
+              id:2,
+                text: 'Hola Shakiiii!! siii,  aguantamente cinco que te mando un audio',
+                send_by_me:true,
+                is_read:true,
+
+        },
+        {
+              id:3,
+                text: 'dale daleeee, te espero! ',
                 send_by_me:false,
                 is_read:false,
 

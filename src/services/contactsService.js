@@ -1,5 +1,5 @@
-import contactos from "../pages/Contactos/Contactos";
+import contacts from "../data/contactData"
 
 export function getContacts(){
-    return contactos
+    return contacts
 }
