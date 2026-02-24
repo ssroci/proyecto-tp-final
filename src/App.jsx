@@ -24,7 +24,7 @@ function App() {
                         }
                     />
                     
-      <Route path="/chats" element={<Chat />} />
+        <Route path="/chat/:contact_id" element={<Chat />} />
       <Route path="*" element={<Error />} />
 
     </Routes>

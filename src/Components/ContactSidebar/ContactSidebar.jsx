@@ -2,6 +2,8 @@ import React, { useContext } from "react";
 import { ContactsContext } from "../../Context/ContactsContext";
 import { getContacts } from '../../services/contactsService'
 import { Link } from "react-router";
+import './ContactSidebar.css'
+
 
 
 
@@ -9,9 +11,9 @@ export default function ContactSidebar (){
    const {contacts} =  useContext(ContactsContext)
     
 return (
-<div> 
-    <h2> WhatsApp </h2>
-    <div>
+<div className="sidebar-lista"> 
+    <h2> Contactos </h2>
+    <div className="contactos-sidebar">
            {
                 contacts.map(
                     (contact ) => {
@@ -23,11 +25,15 @@ return (
                             >
                                 
                                 <img 
-                                    src={contact.imagen_perfil} 
+                                    src ={contact.imagen_perfil} 
                                     alt={contact.name} 
+                                    className="foto-perfil"
+                    
                                     style={
                                         {
-                                            width: '200px'
+                                            
+                                            
+                                            
                                         }
                                     }
                                 />
